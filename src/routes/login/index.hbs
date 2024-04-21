@@ -1,0 +1,9 @@
+<form hx-boost hx-ext="json-enc" hx-post="/v1/auth" x->
+	<h1>Kani: Login</h1>
+	<label for="username">Username</label>
+	<input type="text" name="username" />
+</form>
+<script type="module" lang="ts">
+	document.body.addEventListener('htmx:configRequest', function(evt)
+	{evt.detail.parameters['auth_token'] = getAuthToken(); })
+</script>

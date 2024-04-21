@@ -1,5 +1,5 @@
-# kanidm-web-ui-experiments
-A user interface for KanIDM using HTMX, built for simplicity and maintainability above all else
+# Kani UI
 
-probably will use https://htmx.org/extensions/client-side-templates/
+A more full-featured, lighter-weight UI for Kanidm
 
+The general rule of how things work in this UI is that Handlebars is used for page layout, 

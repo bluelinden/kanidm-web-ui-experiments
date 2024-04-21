@@ -1,0 +1,18 @@
+{
+	"name": "kaniui",
+	"type": "module",
+	"devDependencies": {
+		"@rollup/plugin-inject": "^5.0.5",
+		"@types/alpinejs": "^3.13.10",
+		"alpinejs": "^3.13.8",
+		"autoprefixer": "^10.4.19",
+		"handlebars": "^4.7.8",
+		"htmx.org": "^1.9.12",
+		"navigo": "^8.11.1",
+		"postcss": "^8.4.38",
+		"rollup-plugin-handlebars-precompiler": "^1.0.2",
+		"tailwindcss": "^3.4.3",
+		"vite": "^5.2.8"
+	},
+	"dependencies": {}
+}
